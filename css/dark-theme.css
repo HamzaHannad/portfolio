@@ -1,0 +1,95 @@
+/*-- Class Of Background Of NavBar --*/
+.bg-New-style {background: #1c2030; }
+.header .pushmenu{background-color: rgba(20, 29, 38, 0.95)}
+.about,
+.testimonial >.wrap,
+.works,
+.services .content,
+.team .member >div
+{background: #192433;}
+@media (max-width: 990px){ .testimonial {background: #1c2838;} }
+
+.services, .our-pricing, .Work-With { background: #1c2636; }
+
+.team, .news, .contact {background: #1c2434;}
+.news .posts,
+.news .letestNews .btn,
+.our-pricing .item,
+.about .part2 .btn,
+.box-edit .font select,
+.header .pushmenu .nav-item{
+    background: #1b2333;
+   
+}
+.news .posts,
+.news .letestNews .btn,
+.our-pricing .item,
+.about .part2 .btn,
+.about,
+.services .content,
+.team .member >div,
+.works .btns .btn,
+.testimonial .carousel-control-prev,
+.testimonial .carousel-control-next,
+.contact .socialMedia li i,
+.box-edit .font select,
+.header .pushmenu .nav-item
+{
+   border-color: #151c2a;  
+}
+/*Background button*/
+.our-pricing .item .btn,
+.our-pricing .item.active .btn:hover,
+.about .part2 .btn,
+.contact .form-control,
+.contact .btn,
+.contact .socialMedia li i,
+.box-edit >div
+{
+    background-color: #222e41;
+}
+.our-pricing .item.active .btn{background-color: #1b2333;}
+
+.about .part2 h4,
+.about .media h5,
+h1, h2, h3, h4, h5, h6,
+.our-pricing h2,
+.our-pricing .item h4,
+.news .posts h4,
+.contact h3,
+.contact h4,
+.box-edit .font select
+{
+    color: #AAA;
+}
+.services .container>p,
+.team p,
+.our-pricing p,
+.our-pricing .item >div:not(.price),
+.our-pricing .item .btn,
+.news .letestNews p:first-child,
+.news .imgDate,
+.testimonial p,
+.testimonial .item-up .people-name,
+.contact p,
+.contact .info li,
+header .wrap.onScroll .nav-link,
+.header .pushmenu .nav-item .nav-link:not(.active)
+{
+    color: #999;
+}
+
+/*#e1e1e1 <==> #1b2333*/
+.our-pricing .item.active .price,
+.our-pricing .item.active i,
+.our-pricing .item.active >div:not(.price)
+{
+    
+}
+
+/*#f1f1f1 <==> #1b2333*/
+.our-pricing .item.active h4
+{
+   
+}
+/*.team .member >div { box-shadow: 0px 1px 8px #5555552e }*/

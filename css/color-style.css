@@ -1,0 +1,110 @@
+/*
+:root {
+	--color : #d2274a;
+	--color1 : rgba(210, 39, 74, 0.3);
+	--color2 : rgba(210, 39, 74, 0.8);
+	--color3 : rgba(210, 39, 74, 0.4);
+}
+*/
+/*
+.home .custom-btn{background-color: var(--color1);}
+.team .member .overlay,
+.works .wrap-inner>div,
+.header .pushmenu .nav-link:not(.active):hover
+{background-color: var(--color2);}
+
+.about .part1 .btn{background-color: var(--color1); border-color: var(--color1);}/* mainColor - 8 at all Argument */
+/*All Element Have opacity border-color 0.40*/
+/*.facts .fct .media{
+    border-color: var(--color3);
+}
+/*change color Star inside section work*/
+/*.services .content:hover p,
+.about .part1 p,
+.our-pricing .item.active >p
+{color: #CCC}
+
+/* main Color */
+/*
+
+.home .h1 span,
+.navbar-light .navbar-nav .nav-item .active,
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover,
+.services .content i,
+.team .member .overlay i:hover,
+.facts .fct h5,
+.about .part1 .btn:hover,
+.testimonial .item-up i,
+.contact .star,
+.contact .info li .fa,
+.contact .info li::before,
+.contact .socialMedia li i ,
+.our-pricing .item i,
+.our-pricing .item .price,
+.our-pricing .item >p,
+.our-pricing .item.active .btn:hover,
+.works .btns .btn.selected,
+.works .btns .btn:hover,
+.part-of-heading,
+.contact .btn,
+.swiper-button-next, .swiper-button-prev,
+.header .pushmenu .social-media i:hover,
+.header .wrap .social-media i:hover,
+.about .media i,
+footer .copyRight span,
+footer .copyRight .fa,
+.testimonial .carousel-control-prev, .testimonial .carousel-control-next,
+.news .letestNews .btn,
+.news .posts a,
+.news .posts .icons .Fa-icon,
+.about .part2 .btn,
+.about .part2 ul li .icon,
+.about .part2 h4 span,
+.Work-With h2 span span,
+.loading .text
+{
+    color: var(--color);
+}
+*/
+
+/*
+.custom-btn,
+.home .carousel-control-prev i:hover,
+.home .carousel-control-next i:hover,
+.home .swiper-pagination-bullet.swiper-pagination-bullet-active span,
+.special-heading::before,
+.services .content:hover .overlay,
+.team .member:hover .info,
+.about .part1,
+.about .part2 .btn:hover,
+.works .hedding::after,
+.testimonial .carousel-control-prev:hover,
+.testimonial .carousel-control-next:hover,
+.contact .btn:hover,
+.contact .socialMedia li i:hover,
+footer .form .btn:hover,
+.home .custom-btn:hover,
+.our-pricing .item.active,
+.our-pricing .item:not(.active) .btn:hover,
+.header .pushmenu .nav-link.active,
+.team .swiper-pagination-bullet-active,
+.news .letestNews .btn:hover,
+.box-edit .btn-choose-style,
+.btn-toUp,
+.btn-add-color
+{
+    background-color: var(--color);
+}
+
+.home .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.about .part2 .btn:hover,
+.works .btns .btn.selected,
+.navbar-light .navbar-nav .nav-link.active,
+.news .letestNews .btn:hover,
+.our-pricing .costum-hr,
+.home .custom-btn
+
+{
+    border-color: var(--color);
+}*/

@@ -1,0 +1,448 @@
+/***************************************************************
+**            
+**             Screen width < 577
+**
+******************************************************************/
+
+@media (max-width: 576px){
+    body{font-size: 13px}
+    .h1{font-size: 2rem!important}
+    .h2{
+
+    }
+    h2{
+        font-size: 25px!important;
+    }
+    h3{
+  
+    }
+     h4{
+    }
+    h5{
+    }
+    .btn{
+        font-size: 0.9rem;
+        padding:8px 20px; 
+    }
+    p{
+        font-size:13px!important 
+    }
+    
+/*Start edit Box*/
+    
+/*    .box-edit{padding: .5rem}*/
+    .box-edit h5{font-size:1.2rem;}
+    
+/*End edit Box*/
+    
+    .services,
+    .team,
+    .works,
+    .our-pricing,
+    .news,
+    .testimonial .people-say
+    {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    
+    .about{padding-bottom: 30px;}
+/*    Start Header*/
+    
+
+/*    End Header*/
+
+    /*start Home page*/
+    .home .swiper-pagination{display: none}
+    .home .custom-btn{padding: 8px 45px;font-size:0.8rem }
+    
+    /*end Home page*/
+
+    /* start facts */
+    .facts .fct{margin-bottom: 35px;}
+    .facts .fct i{font-size: 2rem}
+    .facts .fct h5{font-size: 1.8rem}
+    .facts .fct span{font-size: 1.1rem;}
+    .facts .fct:nth-of-type(2)::after,.facts .fct:last-of-type::after{width: 0}
+	.facts .overlay {padding-bottom: 60px;}
+    .facts .overlay h2{padding-bottom: 50px;}
+	.facts .fct .media {width: auto; height: auto; border: 0; margin-bottom: 20px}
+    
+    /* End facts */
+    
+    /*Start About*/
+    .about .part1 p{max-width: 100%}
+    .about .part2 p{}
+    .about .part2 p{margin-top: 20px;}
+    .about .part2 h4{margin-bottom: 10px;}
+    .about .btn{padding: 8px 15px;width: 140px!important}    
+    .about .btn i{}    
+    /*End About*/
+    /* start Our Services */
+    .services{padding-bottom: 50px;padding-top: 50px;}
+/*
+    .services .content p{font-size: 14px}
+    .services .content h4{font-size: 18px}
+    .services .content i{font-size: 30px;}
+*/
+    /* End Our Services */
+    
+    /* Start works  */
+    .works .special-heading::before{visibility: visible}
+    .works .hedding::after{width: 0}
+    .works h2{margin-bottom: 35px;}
+    .works .btns .btn{width: 95px;margin-bottom: 8px;padding: 8px 0}
+    .works .gallery{padding: 20px 0}
+    .works .gallery>div:first-of-type,
+    .works .gallery>div:last-of-type{width: 100%!important}
+    .works .gallery>div:last-of-type{width: 100%!important}
+    .works .gallery>div:nth-of-type(2),
+    .works .gallery>div:nth-of-type(3){width: 50%!important}
+    .works .wrap-inner h4{margin-top: 0;font-size: 1.2rem}
+    .works .wrap-inner>div{height: 90%}
+    .works .wrap-inner>div span{font-size: 0.8rem}
+    .works .wrap-inner>div span:last-of-type{font-size: 0.7rem}
+    .works .wrap-inner>div .costum-hr{margin: 10px auto;}
+    /* End Works  */
+    /* Start Contact  */
+    .form{margin-top: 35px}
+    .contact .form-control{padding: 10px;}
+    .contact label{font-size: .9rem;top: 35px;}
+    .contact .star{font-size: 8px;}
+
+    
+    /* End Contact  */
+    
+    /* Start Pricing List  */
+    .our-pricing .item{padding: 20px 0;margin-bottom: 15px }
+    .our-pricing .item >div:not(.price){font-size: 0.94rem;margin-left: 10px;margin-bottom: 0}
+    .our-pricing .item h4{padding-left: 10px;}
+    .our-pricing .item >p{font-size: 0.9rem;padding-left: 10px;}
+    .our-pricing .item h4{font-size: 1.6rem}
+    .our-pricing .item .price{font-size: 1.7rem;right: 8px;}
+    .testimonial .carousel-control-prev, .testimonial .carousel-control-next{
+        width: 50px;
+        padding: 8px 12px;
+    }
+    
+    /* End Pricing List  */
+    
+    /* Start Our Team  */
+/*    .team .member {text-align: center;margin-bottom: 15px;}*/
+        .team .member {text-align: center;margin-bottom: 45px;}
+    
+    /* End Our Team  */
+
+    /* Start Testimonial  */
+    .testimonial .item-up .people-name{font-size: 1rem}
+    .testimonial .item-up .people-img{width: 50px;}
+    
+    /* End Testimonial  */
+    /* Start News  */
+    .news .letestNews h2{margin-bottom: 25px;}
+    .news .letestNews {margin-bottom: 25px;}
+    .news .letestNews p{line-height: 1.6}
+    .news .posts{margin-bottom: 15px}
+    .news .letestNews .btn{padding: 8px 15px;width: 170px!important}
+    
+    /* End News  */
+
+    /* Start Footer  */
+    
+    
+    
+    /* End Footer  */
+    
+}
+/***************************************************************
+**            
+**            Small Screen width >= 577 and < 768px
+**
+******************************************************************/
+@media (min-width: 577px) and (max-width:767px){
+    body{font-size: 15px}
+    .h1{font-size: 2.5rem!important}
+    .h2{
+
+    }
+    h2{
+        font-size: 30px!important;
+    }
+    h3{
+  
+    }
+     h4{
+    }
+    h5{
+    }
+    .btn{
+        font-size: 0.9rem;
+        padding:10px 20px; 
+    }
+    p{
+        font-size:1rem 
+    }
+    
+    .services,
+    .team,
+    .works,
+    .our-pricing,
+    .news,
+    .testimonial .people-say,
+    .services
+    {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+     .about{padding-bottom: 50px;}
+/*    Start Header*/
+    
+
+/*    End Header*/
+
+    /*start Home page*/
+
+    
+    /*end Home page*/
+
+    /* start facts */
+    .facts .fct{margin-bottom: 60px;}
+    .facts .fct i{font-size: 2rem}
+    .facts .fct h5{font-size: 1.8rem}
+    .facts .fct span{font-size: 1.2rem;}
+    .facts .fct:nth-of-type(2)::after,.facts .fct:last-of-type::after{width: 0}
+    .facts .overlay h2{padding-bottom: 50px;}
+    
+    /* End facts */
+    
+    /*Start About*/
+    .about .part1 p{max-width: 80%}
+    .about .part2 p{margin-top: 20px;}
+    .about .part2 h4{margin-bottom: 15px;}
+    .about .btn{padding: 10px 28px;width: 155px!important}
+    .about .part2 ul li{padding: 0 0 6px 0;font-size: 1rem;}
+    .about .btn{padding: 10px 28px;width: 155px!important;}
+    .about .part2 ul li .icon{font-size: 15px;padding-right: 12px;}
+    /*End About*/
+    /* start Our Services */
+    .services{padding-bottom: 50px;padding-top: 50px;}
+/*
+    .services .content p{font-size: 14px}
+    .services .content h4{font-size: 18px}
+    .services .content i{font-size: 30px;}
+*/
+    /* End Our Services */
+    
+    /* Start works  */
+    .works .special-heading::before{visibility: visible}
+    .works .hedding::after{width: 0}
+    .works h2{margin-bottom: 35px;}
+    .works .btns .btn{width: 93px;margin-bottom: 8px;padding: 8px 0}
+    .works .gallery{padding: 20px 0}
+    .works .gallery>div:first-of-type,
+    .works .gallery>div:last-of-type{width: 100%!important}
+    .works .gallery>div:last-of-type{width: 100%!important}
+    .works .gallery>div:nth-of-type(2),
+    .works .gallery>div:nth-of-type(3){width: 50%!important}
+    .works .wrap-inner h4{margin-top: 0;font-size: 1.5rem}
+    .works .wrap-inner>div{height: 70%}
+    .works .wrap-inner>div span{font-size: 1rem}
+    .works .wrap-inner>div span:last-of-type{font-size: 0.7rem}
+    .works .wrap-inner>div .costum-hr{margin: 10px auto;}
+    /* End Works  */
+    /* Start Contact  */
+    .form{margin-top: 35px}
+
+    
+    /* End Contact  */
+    
+    /* Start Pricing List  */
+    .our-pricing .item{padding: 20px 0;margin-bottom: 15px }
+    .our-pricing .item >div:not(.price){font-size: 1remrem;margin-left: 10px;margin-bottom: 0}
+    .our-pricing .item h4{padding-left: 10px;}
+    .our-pricing .item >p{font-size: 0.9rem;padding-left: 10px;}
+    .our-pricing .item h4{font-size: 1.6rem}
+    .our-pricing .item .price{font-size: 1.7rem;right: 8px;}
+    
+    /* End Pricing List  */
+    
+    /* Start Our Team  */
+/*    .team .member {text-align: center;margin-bottom: 15px;}*/
+     .team .member {text-align: center;margin-bottom: 15px; margin-right: 13.5px!important;}
+    
+    /* End Our Team  */
+
+    /* Start Testimonial  */
+    .testimonial .item-up .people-name{font-size: 1rem}
+    .testimonial .item-up .people-img{width: 50px;}
+    .testimonial .carousel-control-prev, .testimonial .carousel-control-next{
+        width: 50px;
+        padding: 10px 14px;
+    }
+    
+    /* End Testimonial  */
+    /* Start News  */
+    .news .letestNews h2{margin-bottom: 25px;}
+    .news .letestNews {margin-bottom: 25px;}
+    .news .letestNews p{line-height: 1.6}
+    .news .posts{margin-bottom: 15px}
+    .news .letestNews .btn{width: 180px}
+    
+    /* End News  */
+
+    /* Start Footer  */
+    
+    
+    
+    /* End Footer  */
+
+}
+/***************************************************************
+**            
+**            Mediam Screen width >= 768
+**
+******************************************************************/
+
+@media (min-width: 768px) and (max-width:991px){
+    body{font-size: 15px}
+    .h2{
+
+    }
+    h2{
+        font-size: 35px!important;
+    }
+    h3{
+  
+    }
+     h4{
+    }
+    h5{
+    }
+    .btn{
+        font-size: 0.9rem;
+        padding:10px 20px; 
+    }
+    p{
+        font-size:1rem 
+    }
+    
+    .services,
+    .team,
+    .works,
+    .our-pricing,
+    .news,
+    .services
+    {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+     .about{padding-bottom: 60px;}
+    
+    /* start facts */
+    .facts .fct{margin-bottom: 60px;}
+    .facts .fct i{font-size: 2rem}
+    
+    /* End facts */
+    
+    /*Start About*/
+    .about .part1 p{max-width: 70%}
+    .about .part2 p{}
+    .about .part2 h4{margin-bottom: 15px;font-size: 1.7rem}
+    .about .part2 img{transform: translateY(-50%); position: relative; top: 50%;width: 100%; height: 50%;}
+    .about .btn{padding: 10px 28px;width: 155px!important}
+    
+    /*End About*/
+    /* start Our Services */
+    .services{padding-bottom: 50px;padding-top: 50px;}
+
+    /* End Our Services */
+    
+    /* Start works  */
+    .works .special-heading::before{visibility: visible}
+    .works h2{margin-bottom: 50px;}
+    .works .hedding::after{width: 0}
+    .works .wrap-inner h4{margin-top: 0;font-size: 1.2rem}
+    .works .wrap-inner>div{height: 70%}
+    .works .wrap-inner>div span{font-size: 0.8rem}
+    .works .wrap-inner>div span:last-of-type{font-size: 0.8rem}
+    .works .wrap-inner>div .costum-hr{margin: 10px auto;}
+    /* End Works  */
+    /* Start Contact  */
+    .contact .btn{padding: 12px 35px 12px 44px;}
+    
+    /* End Contact  */
+    
+    /* Start Pricing List  */
+    .our-pricing .item{padding: 20px 0;margin-bottom: 15px }
+    /* End Pricing List  */
+    
+    /* Start Our Team  */
+/*    .team .member {text-align: center;margin-bottom: 15px;}*/
+       .team .member {text-align: center;margin-bottom: 15px; margin-right: 8px!important;}
+    
+    /* End Our Team  */
+
+    /* Start Testimonial  */
+    .testimonial .item-up .people-name{font-size: 1rem}
+    .testimonial .item-up .people-img{width: 60px;}
+    .testimonial .carousel-control-prev, .testimonial .carousel-control-next{
+        width: 50px;
+        padding: 10px 14px;
+    }
+    
+    /* End Testimonial  */
+    /* Start News  */
+    .news .letestNews h2{margin-bottom: 25px;}
+    .news .letestNews {margin-bottom: 35px;}
+    .news .letestNews p{line-height: 1.6}
+    .news .posts{margin-bottom: 15px}
+    .news .letestNews .btn{width: 170px}
+    
+    /* End News  */
+
+}
+/***************************************************************
+**            
+**            large Screen width <= 921 .about .img
+**
+******************************************************************/
+
+@media (max-width: 990px){
+    
+    /* Start Navigation Bar Edit */
+    
+    .header .container .row> div{border:0px!important}
+    
+    
+    /* End Navigation Bar Edit */
+    
+    /*Start About*/
+    
+    /*End About*/
+    /* Start Team */
+    
+    .team .member {margin-right: 0!important;}
+    
+    /* End Team */
+    /*Start Testimonial*/
+    .testimonial{background: #f1f1f1}
+    
+    
+    /*End Testimonial*/
+
+    
+}
+@media (min-width: 991px){
+/*    body{font-size: 15px}{font-size: 16px}*/
+    .about .part2 ul li{padding-bottom: 12px;}
+    .about .part2 ul li .icon{font-size: 1rem}
+    .works h2{white-space: nowrap}
+    .works .special-heading::before{visibility: hidden}
+    .works .hedding{padding-right: 0}
+    .works .hedding::after{width: 2px;right: -30px;}
+}
+
+@media (min-width: 1000px){
+    
+}
+

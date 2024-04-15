@@ -1,0 +1,1254 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Personal Website</title>
+		<link rel="icon" href="imgs/logo.png">
+		
+		<!--include all fills Css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700">
+        <link href="https://fonts.googleapis.com/css?family=Glegoo|Montserrat:200,200i,300,300i,400,600,600i,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<!-- Style -->
+        <link rel="stylesheet" href="css/custom.css">    
+        <link rel="stylesheet" href="css/color-style.css"> 
+        <link id="bgColor" rel="stylesheet" href=""> 
+		<link rel="stylesheet" href="css/media.css"> 
+		
+	</head>
+	
+	<body data-spy="scroll" data-target="#header" data-offset="0">
+      
+       <!-- Start edit Box -->
+      <div class="box-edit position-fixed text-center">
+       	<i class="fa fa-sliders fa-lg float-right position-absolute btn-choose-style"></i>
+		<!--<i class="fa fa-cogs fa-lg float-right position-absolute btn-choose-style"></i>-->
+         <div>
+            <div class="color" id="color">
+                <h5>Color</h5>
+                
+                <div class="spans">
+                	<span class="d-inline-block" style="background-color : #ed2e55"></span>
+                	<span class="d-inline-block" style="background-color : #e67e22"></span>
+                	<span class="d-inline-block" style="background-color : #3498db"></span>
+                	<span class="d-inline-block" style="background-color : #2ecc71"></span>
+                	<span class="d-inline-block" style="background-color : #f39c12"></span>
+                	<span class="d-inline-block" style="background-color : #5e412f"></span>
+  				</div>
+             	
+              	<div class="delete-color position-absolute">
+              		<h6>Delete</h6>
+              		<p class='delete-yes d-inline-block'><i class="fa fa-check"></i></p>
+              		<p class='delete-no d-inline-block'><i class="fa fa-times"></i></p>
+              	</div>
+              	
+               <div class="box-add-color overflow-hidden">
+               		<div class="btn-add-color position-relative text-center float-left"><i class="fa fa-plus"></i></div>
+                	<input type="text" class="d-inline-block float-left border-0" value="  #">
+               </div>
+            </div>
+            
+            <div class="bg-color" id="bgColorControl">
+				<h5>Background color</h5>       
+				<span class="bg-light d-inline-block" data-backgroundcolor="">Light</span>
+				<span class="bg-dark d-inline-block" data-backgroundColor="css/dark-theme.css">Dark</span>
+            </div>
+             <div class="font">
+				<h5>Font Family</h5> 
+				<h6 class="text-left">Hedding</h6>
+				<select class="d-block hidden" name="fontfamily">
+				  <option value="'Raleway', sans-serif">Raleway</option>
+				  <option value="'arial', sans-serif">Arial</option>
+				  <option value="'Glegoo', sans-serif">Glegoo</option>
+				  <option value="'Montserrat', sans-serif">Montserrat</option>
+				</select>
+
+                  <h6 class="text-left">Paragraph</h6>
+                  <select class="d-block paragraph" name="fontFamily">
+                     <option value="'Roboto', sans-serif">Roboto</option>
+                     <option value="'arial', sans-serif">Arial</option>
+                     <option value="'Tahoma', sans-serif">Tahoma</option>
+                     <option value="'Open Sans Condensed', sans-serif">Open Sans Condensed</option>
+                  </select>
+
+             </div>
+         </div>
+
+      </div>
+      
+       <!--Start edit Box-->
+       
+        <!--Start Header-->
+        
+		<header class="header w-100" id="header">
+          <div class="wrap" data-bgColor="#e1e1e1">
+               <div class="container">
+                	<div class="row">
+						<div class="col-12 col-lg-10">
+							<nav class="navbar navbar-expand-lg navbar-light w-100 pt-1 px-0" id="main-navbar">
+								  <a class="logo navbar-brand d-inline-block text-center" href="#">
+									  <img src="imgs/logo.png" alt="logo">
+									  <span class="d-block">Your Logo</span>
+								  </a>
+								  <button class="navbar-toggler btn-nav" type="button" data-toggle="pushmenu" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<i class="fa fa-bars falg"></i>
+								  </button>
+
+								  <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+									<ul class="navbar-nav ml-auto nav nav-pills">
+									  <li class="nav-item active mx-1">
+										<a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+									  </li>
+									  <li class="nav-item mx-1">
+										<a class="nav-link" href="#about">About</a>
+									  </li>
+									   <li class="nav-item mx-1">
+										<a class="nav-link" href="#services">Services</a>
+									  </li>
+									   <li class="nav-item mx-1">
+										<a class="nav-link" href="#team">Teams</a>
+									  </li>
+									  <li class="nav-item mx-1">
+										<a class="nav-link" href="#works">Works</a>
+									  </li>
+									  <li class="nav-item mx-1">
+										<a class="nav-link" href="#pricing">Pricing</a>
+									  </li>
+									   <li class="nav-item mx-1">
+										<a class="nav-link" href="#blog">Blog</a>
+									  </li>
+									  <li class="nav-item  mx-1">
+										 <a class="nav-link" href="#contact">Contact</a>
+									  </li>
+									</ul>
+								</div>
+
+							</nav>
+						</div>
+                    <div class="col-lg-2 d-none d-lg-block">
+                        <div class="social-media text-right py-2">
+							<a href="#"><i class="fa fa-facebook fa-fw mx-1"></i></a>
+							<a href="#"><i class="fa fa-twitter fa-fw mx-1"></i></a>
+							<a href="#"><i class="fa fa-google-plus fa-fw mx-1"></i></a>
+							<a href="#"><i class="fa fa-instagram fa-fw mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <hr class="costum-hr my-0">
+        <!--Second Nav bar  -->
+        
+        <div class="container d-block d-lg-none">
+            <div class="pushmenu d-none justify-content-center align-items-center flex-wrap align-content-center position-relative" id="navbarSupportedContent">
+                <ul class="list-unstyled">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                   <li class="nav-item ">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#team">Teams</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#works">Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+
+
+                </ul>
+					<div class="social-media text-center m-0 position-absolute">
+						<a href="#"><i class="fa fa-facebook fa-fw mx-1"></i></a>
+						<a href="#"><i class="fa fa-twitter fa-fw mx-1"></i></a>
+						<a href="#"><i class="fa fa-google-plus fa-fw mx-1"></i></a>
+						<a href="#"><i class="fa fa-instagram fa-fw mx-1"></i></a>
+					</div>
+					<span class="close position-absolute"><i class="fa fa-close fa-fw"></i></span>
+            </div>
+            </div>
+        </header>
+        
+		
+		<!--End NavBar -->
+
+		<!--Start Section main-->
+
+		<section class="home position-relative" id="main">
+            <!-- Slider main container -->
+            
+            <div class="swiper-container h-100 w-100">
+                <!-- Additional required wrapper -->
+                
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide item" style="background-image: url('imgs/banner01.png')">
+                        <div class="overlay h-100 d-flex justify-content-center">
+							<div class="content text-center">
+								<div class="container">
+									<h1 class="h1 text-center">Creative <span data-header="Design.">Team.</span></h1>
+									<p class="">We collaborate with the hottest companies in San Francisco.</p>
+									<a class="btn custom-btn" href="#">Who We Are</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item" style="background-image: url('imgs/banner02.jpg')">
+                        <div class="overlay h-100 d-flex justify-content-center">
+                            <div class="content text-center">
+                                <div class="container">
+                                    <h1 class="h1 text-center">Creative <span data-header="Design.">Team.</span></h1>
+                                    <p class="">We collaborate with the hottest companies in San Francisco.</p>
+                                    <a class="btn custom-btn" href="#">Who We Are</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item" style="background-image:url('imgs/banner03.jpg')">
+                        <div class="overlay h-100 d-flex justify-content-center">
+                            <div class="content text-center">
+                                <div class="container">
+                                    <h1 class="h1 text-center">Creative <span data-header="Design.">Team.</span></h1>
+                                    <p class="">We collaborate with the hottest companies in San Francisco.</p>
+                                    <a class="btn custom-btn" href="#">Who We Are</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                
+                <div class="swiper-button-prev">
+                    <i class="fa fa-long-arrow-up fa-lg d-inline-block btn-prev" aria-hidden="true"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fa fa-long-arrow-down fa-lg d-inline-block btn-next" aria-hidden="true"></i>
+                </div>
+
+                <!-- If we need scrollbar -->
+                
+                <div class="swiper-scrollbar"></div>
+            </div>
+		</section>
+
+        <!--End section Main-->
+        
+        <!-- Start Section About -->
+        
+		<section class="about" id="about">
+		
+			<!-- Start Part One -->
+			
+			<div class="part1 text-center">
+                <div class="container wow bounceIn" data-wow-offset='20' data-wow-duration="4s" data-wow-delay="0">
+                    <h2 class="special-heading">Who We Are</h2>
+                    <p class="lead">We are an innovative company. We develop and design website
+                    costumers around the world. Our clients are some of the most forward-looking companies in the world. the most forward-looking.</p>
+
+                    <button type="button" class="btn custom-btn text-left">
+                    Read More
+                    <i class="fa fa-long-arrow-right fa-lg d-inline-block" aria-hidden="true"></i>
+                    </button>
+                </div>			
+			</div>
+			
+			<!-- End Part One -->
+			
+            <!-- Start Part Two -->
+            
+			<div class="part2 pb-0">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-12 text-left">
+							<div class="content wow slideInLeft" data-wow-offset='100' data-wow-duration="3s" data-wow-delay="0">
+								<p class="text-left"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos sit quae quia cupiditate nesciunt ipsam blanditiis, ipsum sequi quas ab id porro. Ex vitae error veritatis aut veniam dignissimos quam.</i></p>
+
+								<h4 class="text-left special-heading">Why <span>Choose</span> Us</h4>
+                                <div class="media justify-content-center">
+                                      <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                                      <div class="media-body">
+											<h5 class="mt-0 mb-2">Clean Code &amp; Design</h5>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis voluptatibus aliquid nulla doloribus.</p>
+                                      </div>
+                                </div>
+                                <div class="media justify-content-center">
+                                      <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+                                      <div class="media-body">
+                                            <h5 class="mt-0 mb-2">Responsive Layout</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis voluptatibus.</p>
+                                      </div>
+                                </div>
+                                <div class="media justify-content-center">
+                                      <i class="fa fa-hand-rock-o fa-2x" aria-hidden="true"></i>
+                                      <div class="media-body">
+                                            <h5 class="mt-0 mb-2">Powerful Documentation</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero omnis voluptatibus aliquid nulla doloribus repudiandae eveniet voluptate.</p>
+                                      </div>
+                                </div>
+                                
+                                
+								<button type="button" class="btn custom-btn">
+								Contact Us
+								<i class="fa fa-long-arrow-right fa-lg d-inline-block" aria-hidden="true"></i>
+								</button>
+								
+							</div>
+							
+						</div>
+						<div class="col-lg-6 d-none d-lg-block text-center">
+							<img class="img-fluid wow slideInRight" data-wow-offset='100' data-wow-duration="3s" data-wow-delay="0" src="imgs/man01.png" alt="">
+						</div>
+					</div>
+				</div>	
+					
+			</div>
+			
+			<!-- End Part Two -->
+       
+        </section>
+        
+		<!-- End Section About -->
+        
+        <!--Start Services-->
+        
+        <section class="services" id="services">
+            <div class="container">
+                <p class="text-center mb-0">Lorem ipsum dolor sit.</p>
+                <h2 class="text-center"><span class=" special-heading">What We <span class="part-of-heading">Do</span></span></h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                       <div class="content text-center position-relative wow bounceIn" data-wow-offset='20' data-wow-duration="3s" data-wow-delay="0">
+                           <div class="w-100 position-relative">
+                                <i class="fa fa-edit fa-fw"></i>
+                                <h4 class="">Unlimited Features</h4>
+                                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really Keep away from people great</p>
+                            </div>
+                            <div class="overlay position-absolute"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                       <div class="content text-center position-relative wow bounceIn" data-wow-offset='20' data-wow-duration="3s" data-wow-delay="0">
+                           <div class="w-100 position-relative">
+                                 <i class="fa fa-code fa-fw"></i>
+                                <h4 class="">Web Devlopment</h4>
+                                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really Keep away from people great</p>
+                            </div>
+                            <div class="overlay position-absolute"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                       <div class="content text-center position-relative wow bounceIn" data-wow-offset='20' data-wow-duration="3s" data-wow-delay="0">
+                           <div class="w-100 position-relative">
+                                <i class="fa fa-pie-chart fa-fw"></i>
+                                <h4 class="">SEO</h4>
+                                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really Keep away from people great</p>
+                            </div>
+                            <div class="overlay position-absolute"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                       <div class="content text-center position-relative wow bounceIn" data-wow-offset='20' data-wow-duration="3s" data-wow-delay="0">
+                           <div class="w-100 position-relative">
+                                 <i class="fa fa-edit fa-fw"></i>
+                                <h4 class="">Unlimited Features</h4>
+                                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really Keep away from people great</p>
+                            </div>
+                            <div class="overlay position-absolute"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                       <div class="content text-center position-relative wow bounceIn" data-wow-offset='20' data-wow-duration="3s" data-wow-delay="0">
+                           <div class="w-100 position-relative">
+                                <i class="fa fa-code fa-fw"></i>
+                                <h4 class="">Web Development</h4>
+                                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really Keep away from people great</p>
+                            </div>
+                            <div class="overlay position-absolute"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                       <div class="content text-center position-relative wow bounceIn" data-wow-offset='20' data-wow-duration="3s" data-wow-delay="0">
+                           <div class="w-100 position-relative">
+                                <i class="fa fa-pie-chart fa-fw"></i>
+                                <h4 class="">SEO</h4>
+                                <p>Keep away from people who try to belittle your ambitions. Small people always do that but the really Keep away from people great</p>
+                            </div>
+                            <div class="overlay position-absolute"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--End Services-->
+        
+        <!--Start Team-->
+        
+        <section class="team position-relative" id="team">
+            <div class="container">
+               <p class="text-center mb-0">Lorem ipsum dolor sit.</p>
+                <h2 class="text-center"><span class="special-heading">Our Amazing <span class="part-of-heading">Team</span></span></h2> 
+
+         <!-- Swiper -->
+            <div class="swiper-container2">
+                <div class="swiper-wrapper text-center">
+                    <div class="sliderTeam swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div class="wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0">
+                                <div class="member-img position-relative  text-center">
+                                    <img class="img-fluid" src="imgs/member04.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div class="wow fadeInDown" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0">
+                                <div class="member-img position-relative  text-center">
+                                    <img class="img-fluid" src="imgs/member02.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sliderTeam swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div class="wow fadeInUp" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0">
+                                <div class="member-img position-relative  text-center">
+                                    <img class="img-fluid" src="imgs/member01.j.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sliderTeam swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div class="wow fadeInRight" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0">
+                                <div class="member-img position-relative  text-center">
+                                    <img class="img-fluid" src="imgs/member03.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sliderTeam swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div>
+                                <div class="member-img position-relative  text-center">
+                                     <img class="img-fluid" src="imgs/member04.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>  
+                    <div class="sliderTeam swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div>
+                                <div class="member-img position-relative  text-center ">
+                                    <img class="img-fluid" src="imgs/member03.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="sliderTeam swiper-slide member col-lg-3 col-md-4 col-sm-6 col-12">
+                           <div>
+                                <div class="member-img position-relative  text-center ">
+                                     <img class="img-fluid" src="imgs/member04.jpg" alt="">
+                                    <div class="overlay position-absolute w-100 d-flex align-items-center justify-content-center">
+                                        <div class="social-media text-center py-2">
+                                            <i class="fa fa-facebook fa-fw mx-1"></i>
+                                            <i class="fa fa-twitter fa-fw mx-1"></i>
+                                            <i class="fa fa-instagram fa-fw mx-1"></i>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <span class="d-block">David Willey</span>
+                                    <span>Marketing Manage</span>
+                                </div>
+                            </div>
+                    </div>                    
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+           
+            </div>
+        </section>
+        
+        <!--End Team-->
+	    
+       <!--Start Facts-->
+       
+        <section class="facts text-center">
+            <div class="overlay">
+                <div class="container">
+                   <p class="text-center mb-0">Lorem ipsum dolor sit.</p>
+                    <h2 class="text-center"><span class=" special-heading">Cool <span class="part-of-heading">Facts</span></span></h2> 
+                    <div class="row">
+                        <div class="fct col-6 col-lg-3">
+                            <div class="media mx-auto justify-content-center wow bounceInUp" data-wow-offset='0' data-wow-duration="3s" data-wow-delay="0">
+								<i class="fa fa-briefcase fa-3x" aria-hidden="true"></i>
+								<div class="media-body ml-3 ml-md-4 ">
+									<h5 class="mt-0 mb-0"><span class="SomeElementYouWantToAnimate" data-startval="0" data-endval="12000">0</span><sup>+</sup></h5>
+									<span>Projects</span>
+								</div>
+						    </div>
+                        </div>
+                        <div class="fct col-6 col-lg-3">
+                            <div class="media mx-auto justify-content-center wow bounceInUp" data-wow-offset='0' data-wow-duration="3s" data-wow-delay="0.5s">
+								<i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+								<div class="media-body  ml-3 ml-md-4">
+									<h5 class="mt-0 mb-0"><span class="SomeElementYouWantToAnimate" data-startval="0" data-endval="12000">0</span><sup>+</sup></h5>
+									<span>Hours</span>
+								</div>
+						    </div>
+                        </div>
+                        <div class="fct col-6 col-lg-3">
+                            <div class="media mx-auto justify-content-center wow bounceInUp" data-wow-offset='0' data-wow-duration="3s" data-wow-delay="0.1s">
+						      	<i class="fa fa-home fa-3x" aria-hidden="true"></i>
+								<div class="media-body  ml-3 ml-md-4">
+									<h5 class="mt-0 mb-0"><span class="SomeElementYouWantToAnimate" data-startval="0" data-endval="300">0</span><sup>+</sup></h5>
+									<span>Offices</span>
+								</div>
+						    </div>
+                        </div>
+                        <div class="fct col-6 col-lg-3">
+                            <div class="media mx-auto justify-content-center wow bounceInUp" data-wow-offset='0' data-wow-duration="3s" data-wow-delay="0.2s">
+								<i class="fa fa-users fa-3x" aria-hidden="true"></i>
+								<div class="media-body  ml-3 ml-md-4">
+									<h5 class="mt-0 mb-0"><span class="SomeElementYouWantToAnimate" data-startval="0" data-endval="100">0</span><sup>+</sup></h5>
+									<span>Clients</span>
+								</div>
+						    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       <!--End Facts-->
+       
+       <!--Start Works-->
+       
+       <section class="works" id="works">
+           <div class="container">
+               <div class="row pb-lg-5">
+                   <div class="col-12 col-lg-3 text-center text-lg-left hedding wow fadeInRight" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0">
+						<p class=" mb-0">Lorem ipsum dolor sit.</p>
+						<h2 class="py-0"><span class="special-heading">Creative <span class="part-of-heading">Work</span></span></h2>
+                   </div>
+                   <div class="col-12 col-lg-9 d-flex align-items-center justify-content-center">
+                       <div class="btns text-center">
+                          <button class="btn custom-btn selected wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0" type="button" data-filter="all">All</button>
+                          <button class="btn custom-btn wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".2s" data-filter=".graphic">Graphic</button>
+                          <button class="btn custom-btn wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".4s" data-filter=".web">Web</button>
+                          <button class="btn custom-btn wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".6s" data-filter=".logo">Logo</button>
+                          <button class="btn custom-btn wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".8s" data-filter=".print">Print</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+               <div class="contianer-fluid">
+                    <div class="gallery gallery-box">
+                            <div class="w-50 float-left">
+                                <div class="mix w-100 graphic work-item float-left position-relative">
+                                    <img class="img-fluid" src="imgs/works/workimg1.jpg" alt="image1">
+                                    <div class="wrap-inner position-absolute d-flex align-items-center">
+										<div class="d-flex text-center align-items-center">
+										   <div class="w-100">
+												<h4 class="position-relative text-uppercase">ALICE JHONSON</h4>
+												<span class="d-block text-uppercase">Fotoghraphy</span>
+												<hr class="costum-hr">
+												<span>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+												</span>
+											</div>
+										</div>
+                                    </div> 
+                                </div>
+                                <div class="mix web w-50 work-item float-left position-relative">
+                                    <img class="img-fluid" src="imgs/works/workimg2.jpg" alt="image1">
+                                    <div class="wrap-inner position-absolute d-flex justify-content-center align-items-center">
+										<div class="text-center d-flex align-items-center">
+										   <div class="w-100">
+												<h4 class="position-relative text-uppercase">Hamza Ez</h4>
+												<span class="d-block text-uppercase">ui Design</span>
+												<hr class="costum-hr">
+												<span>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+												</span>
+											</div>
+										</div>
+                                    
+                                    </div> 
+                                </div>
+                                <div class="mix logo w-50 work-item float-left position-relative">
+                                    <img class="img-fluid" src="imgs/works/workimg3.jpg" alt="image1">
+                                    <div class="wrap-inner position-absolute d-flex justify-content-center align-items-center">
+										<div class="text-center d-flex align-items-center">
+											<div class="w-100">
+												<h4 class="position-relative text-uppercase">Fares El</h4>
+												<span class="d-block text-uppercase">Fotoghraphy</span>
+												<hr class="costum-hr">
+												<span>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star-o fa-fw"></i>
+												</span>
+											</div>
+										</div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="mix w-25 graphic work-item float-left position-relative">
+                                <img class="img-fluid" src="imgs/works/workimg5.jpg" alt="image1">
+                                    <div class="wrap-inner position-absolute d-flex justify-content-center align-items-center">
+                                        <div class="text-center d-flex align-items-center">
+											<div class="w-100">
+												<h4 class="position-relative text-uppercase">Amine</h4>
+												<span class="d-block text-uppercase">Fotoghraphy</span>
+												<hr class="costum-hr">
+												<span>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star fa-fw"></i>
+													<i class="fa fa-star-o fa-fw"></i>
+												</span>
+											</div>
+                                        </div>
+                                    
+                                    </div> 
+                            </div>
+                            <div class="mix w-25 work-item graphic float-left position-relative">
+                                <img class="img-fluid" src="imgs/works/workimg4.jpg" alt="image1">
+                                <div class="wrap-inner position-absolute d-flex justify-content-center align-items-center">
+                                    <div class="text-center d-flex align-items-center">
+                                       <div class="w-100">
+                                            <h4 class="position-relative text-uppercase">Adam</h4>
+                                            <span class="d-block text-uppercase">Fotoghraphy</span>
+                                            <hr class="costum-hr">
+                                            <span>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star-o fa-fw"></i>
+                                                <i class="fa fa-star-o fa-fw"></i>
+                                                <i class="fa fa-star-o fa-fw"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div> 
+                            </div> 
+
+                            <div class="mix print w-50 work-item float-left position-relative">
+                                <img class="img-fluid" src="imgs/works/workimg6.jpg" alt="image1">
+                                <div class="wrap-inner position-absolute d-flex justify-content-center align-items-center">
+                                    <div class="text-center d-flex align-items-center">
+                                       <div class="w-100">
+                                            <h4 class="position-relative text-uppercase">ALICE JHONSON</h4>
+                                            <span class="d-block text-uppercase">Fotoghraphy</span>
+                                            <hr class="costum-hr">
+                                            <span>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star fa-fw"></i>
+                                                <i class="fa fa-star-half fa-fw"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div> 
+                            </div>                      
+
+                    </div>
+            
+           </div>
+       </section>
+
+       <!--End Works-->
+       
+	   <!---Start section Our Pricing--->
+		
+		<section class="our-pricing text-center" id="pricing" data-spy="scroll" data-target="#main-navbar" data-offset="0"   id="pricing">
+			<div class="container">
+               <p class=" mb-0 text-center">Lorem ipsum dolor sit.</p>
+                <h2 class=""><span class="special-heading"><span class="part-of-heading">Pricing</span> List</span></h2>
+				<div class="row w-lg-100">
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="item text-left wow fadeInLeft" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".2s">
+                            <h4 class="mb-0 pb-0">Basic</h4>
+                            <p class="">Lorem ipsum dolor</p>
+						    <div class="price">
+                              <span><sup>$</sup>29</span>
+                              <span class="d-block text-center">month</span>
+                           </div>
+                            <hr class="costum-hr">
+                            <div><i class="fa fa-check-circle-o fa-fw"></i> 5GB Desk Space</div>
+                            <div><i class="fa fa-check-circle-o fa-fw "></i> Unlimited Bandwidth</div>
+                            <div><i class="fa fa-check-circle-o fa-fw"></i> Weekly Backups</div>
+                            <div><i class="fa fa-check-circle-o fa-fw  "></i> Powerful Admin Panel</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 100 Email Accounts</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 8 Free Forks Every Months</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 8 Free Software Installer</div>
+							<a class="btn custom-btn d-block mt-3" href="#">Get It Now</a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4">
+						<div class="item active text-left wow fadeInUp" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".4s">
+							<h4 class="mb-0 pb-0">Prfessional</h4>
+                            <p class="">Lorem ipsum dolor</p>
+                           <div class="price">
+							   <span><sup>$</sup>200</span>
+							   <span class="d-block text-center">month</span>
+                           </div>
+                           <hr class="costum-hr">
+                            <div><i class="fa fa-check-circle-o fa-fw"></i> 5GB Desk Space</div>
+                            <div><i class="fa fa-check-circle-o fa-fw "></i> Unlimited Bandwidth</div>
+                            <div><i class="fa fa-check-circle-o fa-fw"></i> Weekly Backups</div>
+                            <div><i class="fa fa-check-circle-o fa-fw  "></i> Powerful Admin Panel</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 100 Email Accounts</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 8 Free Forks Every Months</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 8 Free Software Installer</div>
+							<a class="btn d-block mt-3 custom-btn" href="#">Get It Now</a>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-lg-4">
+						<div class="item text-left wow fadeInRight" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".6s">
+						    <h4 class="mb-0 pb-0">Unlimited</h4>
+                            <p class="">Lorem ipsum dolor</p>
+				            <div class="price">
+								 <span><sup>$</sup>120</span>
+								 <span class="d-block text-center">month</span>
+                            </div>
+                           <hr class="costum-hr">
+                            <div><i class="fa fa-check-circle-o fa-fw"></i> 5GB Desk Space</div>
+                            <div><i class="fa fa-check-circle-o fa-fw "></i> Unlimited Bandwidth</div>
+                            <div><i class="fa fa-check-circle-o fa-fw"></i> Weekly Backups</div>
+                            <div><i class="fa fa-check-circle-o fa-fw  "></i> Powerful Admin Panel</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 100 Email Accounts</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 8 Free Forks Every Months</div>
+                            <div class="border-0"><i class="fa fa-check-circle-o fa-fw"></i> 8 Free Software Installer</div>
+							<a class="btn d-block mt-3 custom-btn" href="#">Get It Now</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+		<!---End section Our Pricing--->
+		
+		<!-- Start Section News -->
+		
+		<section class="news text-center text-lg-left" id="blog">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-4">
+							<div class="letestNews wow fadeInRight" data-wow-offset='50' data-wow-duration="3s" data-wow-delay="0s">
+								<p class="mb-0">Tempor Incididunt u</p>
+                                <h2><span class="special-heading">Our Latest <span class="part-of-heading">News</span></span></h2>
+								<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+								<button type="button" class="btn custom-btn text-left">
+								Show All Posts
+								<i class="fa fa-long-arrow-right fa-lg d-inline-block" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-4">
+							<div class="posts text-left wow fadeInUp" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".2s">
+								<h4>Standard Post Full Width</h4>
+									<p class="lead">Keep away from people who try to belittle your ambitions. Small people always do that labore et dolore.</p>
+									<a href="#">Read More</a>
+									<div class="icons">
+										<i class='fa Fa-icon fa-thumbs-o-up'></i><span>320</span>
+										<i class='fa Fa-icon fa-commenting-o'></i><span>50</span>
+									</div>
+									<hr/>
+									<div class="imgDate d-flex align-items-center ">
+										<div class="img rounded-circle">
+											<img class="img-fluid" src="imgs/av01.jpg" alt="">
+										</div>
+                                        <span class="name">Jhon Smith</span>
+								        <span class="date">20/12/2017</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6 col-lg-4">
+								<div class="posts text-left wow fadeInDown" data-wow-offset='50' data-wow-duration="3s" data-wow-delay=".4s">
+									<h4>Standard Post Full Width</h4>
+									<p class="lead">
+									Keep away from people who try to belittle your ambitions. Small people always do thatlabore et dolore.
+									</p>
+								    <a href="#">Read More</a>
+									<div class="icons">
+										<i class='fa Fa-icon fa-thumbs-o-up'></i><span>320</span>
+										<i class='fa Fa-icon fa-commenting-o'></i><span>50</span>
+									</div>
+									<hr/>
+									<div class="imgDate d-flex align-items-center">
+										<div class="img rounded-circle">
+											<img class="img-fluid" src="imgs/av05.jpg" alt="">
+										</div>
+                                        <span class="name">Jhon Smith</span>
+								        <span class="date">20/12/2017</span>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>	
+			</section>
+		
+		<!-- End Section News -->
+      
+       <!--Start Testimonial-->
+       
+       <section class="testimonial position-relative">
+          <div class="wrap  d-none d-md-block position-absolute"></div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-6 d-none d-md-block"></div>
+                   <div class="col-12 col-lg-6 people-say wow fadeInRight" data-wow-offset='80' data-wow-duration="3s" data-wow-delay="0s">
+                      <p class=" mb-0 text-center text-lg-left">Lorem ipsum dolor sit.</p>
+                       <h2 class="py-0 text-center text-lg-left"><span class="special-heading">What <span class="part-of-heading">People say</span></span></h2>
+                       <div class="">
+                            <div id="carouselTestimonial" class="carousel slide" data-ride="carousel" data-interval="200000">
+								<ol class="carousel-indicators">
+									<li class="active rounded-circle" data-target="#carouselTestimonial" data-slide-to="0"></li>
+									<li class="rounded-circle" data-target="#carouselTestimonial" data-slide-to="1"></li>
+									<li class="rounded-circle" data-target="#carouselTestimonial" data-slide-to="2"></li>
+								</ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <div class="item-up w-100 d-flex align-items-center justify-content-end">
+                                      <div class="mr-3 text-right">
+                                        <span class="people-name text-uppercase">ALICE JHONSON</span>
+                                        <span class="d-block mt-1">
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                        </span>
+                                      </div>
+                                      <div class="people-img rounded-circle">
+                                          <img class="img-fluid" src="imgs/peopleSay/av01.jpg" alt="">
+                                      </div>
+                                  </div>
+                                  <div class="item-down text-center">
+                                        <i class="fa fa-quote-left mr-2"></i>
+                                       <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labor.
+                                       </p>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <div class="item-up w-100 d-flex align-items-center justify-content-end">
+                                      <div class="mr-3 text-right">
+                                        <span class="people-name text-uppercase">Ilyas Rouchdi</span>
+                                        <span class="d-block">
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star-half fa-fw"></i>
+                                            <i class="fa fa-star-o fa-fw"></i>
+                                        </span>
+                                      </div>
+                                      <div class="people-img rounded-circle">
+                                          <img class="img-fluid" src="imgs/peopleSay/av03.jpg" alt="">
+                                      </div>
+                                  </div>
+                                  <div class="item-down text-center">
+                                      <i class="fa fa-quote-left mr-2"></i>
+                                       <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam labor.
+                                       </p>
+                                  </div>
+                                </div>
+                                <div class="carousel-item">
+                                  <div class="item-up w-100 d-flex align-items-center justify-content-end">
+                                      <div class="mr-3 text-right">
+                                        <span class="people-name text-uppercase">Ali Ahmadi</span>
+                                        <span class="d-block">
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star fa-fw"></i>
+                                            <i class="fa fa-star-o fa-fw"></i>
+                                            <i class="fa fa-star-o fa-fw"></i>
+                                        </span>
+                                      </div>
+                                      <div class="people-img rounded-circle">
+                                          <img class="img-fluid" src="imgs/peopleSay/av05.jpg" alt="">
+                                      </div>
+                                  </div>
+                                  <div class="item-down text-center">
+                                       <i class="fa fa-quote-left mr-2"></i>
+                                       <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. consectetur adipisicing elit
+                                       </p>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="control text-right">
+                                      <a class="carousel-control-prev" href="#carouselTestimonial" role="button" data-slide="prev">
+                                        <i class="fa fa-chevron-left fa-lg d-inline-block" aria-hidden="true"></i>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                      <a class="carousel-control-next" href="#carouselTestimonial" role="button" data-slide="next">
+                                        <i class="fa fa-chevron-right fa-lg d-inline-block" aria-hidden="true"></i>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       
+        <!--End Testimonial-->
+        
+        <!--Start We Work With-->
+        
+       <section class="Work-With text-center">
+       		<div class="container">
+       			<p class="mb-0">Lorem ipsum dolor sit.</p>
+       			<h2 class=""><span class="special-heading">We Work <span>With</span></span></h2>
+       			<div class="row">
+       			
+<!--
+       				<div class="col-4 col-sm-3 col-md-2 mb-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+       				<img class="img-fluid" class="img-fluid" src="imgs/ClientLogo/airea.png" alt="">
+       				</div>
+       				
+       				<div class="col-4 col-sm-3 col-md-2 mb-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-offset ="200" >
+       				<img class="img-fluid" src="imgs/ClientLogo/follifollie.png" alt="">
+       				</div>
+       				
+       				<div class="col-4 col-sm-3 col-md-2 mb-3 wow animated fadeInDown" data-wow-duration="1s" data-wow-offset ="200" data-wow-delay="1s">
+       				<img class="img-fluid" class="img-fluid" src="imgs/ClientLogo/fila.png" alt="">
+       				</div>
+       				
+       				<div class="col-4 col-sm-3 col-md-2 mb-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-offset ="200">
+       				<img class="img-fluid" src="imgs/ClientLogo/hilfiger.png" alt="">
+       				</div>
+       				
+       				<div class="col-4 col-sm-3 col-md-2 mb-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-offset ="200" data-wow-delay=".5s">
+       				<img class="img-fluid" src="imgs/ClientLogo/public.png" alt="">
+       				</div>
+       				<div class="col-4 col-sm-3 col-md-2 mb-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-offset ="200" data-wow-delay=".5s">
+       				<img class="img-fluid" src="imgs/ClientLogo/supremebeing.png" alt="">
+       				</div>
+-->
+      			<div class="container overflow-hidden">
+       				  <!-- Swiper -->
+				   <div class="swiper-container3 w-100 pt-3">
+					  <div class="swiper-wrapper text-center">
+
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+							<img class="img-fluid" class="img-fluid" src="imgs/ClientLogo/airea.png" alt="">
+						</div>
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+							<img class="img-fluid" src="imgs/ClientLogo/follifollie.png" alt="">
+						</div>
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+							<img class="img-fluid" class="img-fluid" src="imgs/ClientLogo/fila.png" alt="">
+						</div>
+
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+       						<img class="img-fluid" src="imgs/ClientLogo/public.png" alt="">
+						</div>
+
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+							<img class="img-fluid" src="imgs/ClientLogo/public.png" alt="">
+						</div>
+
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+							<img class="img-fluid" src="imgs/ClientLogo/supremebeing.png" alt="">
+						</div>
+
+						<div class="swiper-slide col-4 col-sm-3 col-md-2 mb-3" data-wow-duration="1s" data-wow-delay=".5s" data-wow-offset ="200">
+							<img class="img-fluid" class="img-fluid" src="imgs/ClientLogo/airea.png" alt="">
+						</div>
+
+					  </div>
+					</div>
+
+				</div>
+				</div>
+       		</div>
+       </section>
+       
+       <!--End We Work With-->
+       
+        <!-- Start Section Contact -->
+		
+        <section class="contact" id="contact">
+				
+				<div class="container">
+					
+					<div class="row">
+						
+						<div class="col-12 col-md-6 wow fadeInRight" data-wow-offset='80' data-wow-duration="3s" data-wow-delay="0s">
+							
+							<h3 class=""><span class="special-heading"><span class="part-of-heading">Contact Us</span> Dirictly</span></h3>
+							
+							<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</i></p>
+							
+							<ul class="list-unstyled info">
+								<li class="position-relative">
+                                    <span>+132 524 2567</span>
+                                    <span class="d-block">+207 457 4578</span>
+								</li>
+								<li class="position-relative">
+                                    <span>exemple.domain@gmail.com</span>
+                                    <span class="d-block">exemple2.domain@gmail.com</span>
+								</li>
+								<li class="position-relative">
+                                    <span>14 Mao Road, N1 4EP, Los Angelos,USA</span>
+                                    <span class="d-block">14 Mao Road, N1 4EP, Los Angelos,USA</span>
+								</li>
+							</ul>
+							
+							<h4>Follow Us :</h4>
+							
+							<ul class="list-unstyled socialMedia">
+								<li><i class='fa fa-facebook fa-fw rounded-circle'></i></li>
+								<li><i class='fa fa-twitter fa-fw rounded-circle'></i></li>
+								<li><i class='fa fa-instagram fa-fw rounded-circle'></i></li>
+								<li><i class='fa fa-google-plus fa-fw rounded-circle'></i></li>
+							</ul>
+						</div>
+						
+						<div class="col-12 col-md-6 form wow fadeInLeft" data-wow-offset='80' data-wow-duration="3s" data-wow-delay="0s">
+							
+                            <h3><span class="special-heading">Use The Form</span></h3>
+							
+							<form>
+						 	
+							 	<div class="form-group">
+									<label id="lblName" for="inputName"><i>Your Name</i></label>
+									<input type="text" class="form-control custom-input" id="inputName">
+									<i class="fa star fa-asterisk position-relative float-right"></i>
+							 	</div>
+							  	
+							  	<div class="form-group">
+									<label id="lblEmail" for="inputEmail"><i>Your Email</i></label>
+									<input type="email" class="form-control custom-input" id="inputEmail">
+									<i class="fa star fa-asterisk position-relative float-right"></i>
+							 	</div>
+							 	
+							 	<div class="form-group">
+									<label id="lblSubject" for="inputSubject"><i>Subject</i></label>
+									<input type="email" class="form-control custom-input" id="inputSubject">
+									<i class="fa star fa-asterisk position-relative float-right"></i>
+							 	</div>
+							 	
+							  	<div class="form-group">
+									<label class='msg' id="lbltextarea" for="textarea"><i>Message</i></label>
+									<textarea class="form-control custom-input" id="textarea" rows="3"></textarea>
+							  	</div>
+							  	
+							  	<button type="submit" class="btn custom-btn">Send <i id="sendIcon" class="fa fa-paper-plane position-relative"></i></button>
+							  	
+							</form>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</section>
+		
+		<!-- End Section Contact -->
+		
+		<!-- Start Section Footer -->
+		
+		<footer>
+			
+			<div class="container">
+				
+				<div class="row">
+					
+					<div class="col-12">
+						
+						<div class="copyRight text-center">
+						
+							<p><span><b>Kimix</b></span> - One Page Creative </p>
+							<p>&copy; copyright 2018 <span><b>Kimix</b></span> &amp; designed with <i class="fa  fa-paint-brush"></i> by Fares</p>
+							
+						</div>
+						
+					</div>
+	<!--				
+					<div class="col">
+						
+						<div class="subscribe">
+						
+							<h4>Subscribe Now</h4>-->
+							
+<!--							<i class="fa  fa-paint-brush"></i>-->
+<!--
+							<input type="text" placeholder="Your Email">
+							<span>Subscribe</span>
+
+
+                            <form>
+                              <div class="form-row align-items-center form">
+                               <label class="d-block" for="inlineFormInputGroup">Subscribe Now</label>
+                                <div class="col-auto px-0 form-input">
+                                  <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                      <div class="input-group-text"><i class="fa  fa-envelope-o fa-lg d-inline-block text-center"></i></div>
+                                    </div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Your Email">
+                                  </div>
+                                </div>
+                                <div class="col-auto px-0 form-btn">
+                                  <button type="submit" class="custom-btn w-100 btn btn-primary mb-2 border-0">Subscribe</button>
+                                </div>
+                              </div>
+                            </form>
+						</div>
+						
+					</div>-->
+					
+				</div>
+				
+			</div>
+			
+		</footer>
+
+		<!-- End Section Footer -->
+		
+        <!--start Button for Scroll To up-->
+        
+		<div class="btn-toUp position-fixed text-center rounded-circle">
+				<i class="fa fa-chevron-up"></i>
+		</div>
+		
+		<!--start Button for Scroll To up-->  
+                  
+       	<!-- Start Section Loading  -->
+			
+        <section class="loading">
+        
+			<div class="sk-cube-grid">
+  				<div class="sk-cube sk-cube1"></div>
+  				<div class="sk-cube sk-cube2"></div>
+  				<div class="sk-cube sk-cube3"></div>
+  				<div class="sk-cube sk-cube4"></div>
+  				<div class="sk-cube sk-cube5"></div>
+  				<div class="sk-cube sk-cube6"></div>
+  				<div class="sk-cube sk-cube7"></div>
+  				<div class="sk-cube sk-cube8"></div>
+  				<div class="sk-cube sk-cube9"></div>
+			</div>
+       
+        </section>
+        
+		<!-- End Section Loading -->
+       
+        <!--Include Js Fils-->
+        
+	    <script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/mixitup.min.js"></script>
+	    <script src="js/swiper.min.js"></script>
+	    <script src="js/wow.min.js"></script>
+	    <script src="js/anime.min.js"></script>
+	    <script src="js/jquery.nicescroll.min.js"></script>
+	    <script src="js/countUp.js"></script>
+	    <script src="js/blugin.js"></script>
+	    
+	</body>
+	
+</html>
